@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
 }
@@ -269,7 +269,7 @@ a {
 }
 
 .primary-cta {
-    background-color: var(--accent-blue);
+    background-color: rgb(47, 165, 57);
     padding: 1rem 2.5rem;
     font-size: 1.1rem;
 }

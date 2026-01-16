@@ -25,10 +25,10 @@
     <style>
         :root {
             /* Paleta de cores baseada no site de referência */
-            --primary-dark: #0A1A3A;
-            --primary-blue: #1A3A7A;
-            --secondary-blue: #2A4A8A;
-            --accent-blue: #3A6ABA;
+            --primary-dark: #a18276;
+            --primary-blue: #b1968b;
+            --secondary-blue: #aa9891;
+            --accent-blue: #a18276;
             --light-blue: #E8F0FE;
             --white: #FFFFFF;
             --gray-light: #F5F7FA;
@@ -149,7 +149,7 @@
                     Garantimos acesso a tratamentos, medicamentos e cirurgias por meio de liminares rápidas e ações judiciais eficazes.
                 </p>
                 <div class="hero-cta">
-                    <button class="cta-button primary-cta" id="hero-cta-button"><a href="https://api.whatsapp.com/send/?phone=5511998688388&text=Ol%C3%A1%2C+tenho+uma+d%C3%BAvida&type=phone_number&app_absent=0" target="_blank">AGENDAR CONSULTA JURÍDICA</a></button>
+                    <button class="cta-button primary-cta" id="hero-cta-button"><a href="https://api.whatsapp.com/send/?phone=5511998688388&text=Ol%C3%A1%2C+tenho+uma+d%C3%BAvida&type=phone_number&app_absent=0" target="_blank">CONVERSE COM UMA ADVOGADA AQUI  <i class="fa-brands fa-whatsapp"></i></a></button>
                     <a href="#services" class="secondary-link">Conheça nossas atuações</a>
                 </div>
             </div>
@@ -423,6 +423,42 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.06580006044865!2d-47.283547713927064!3d-23.277531065930976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf51fb789b0c5b%3A0x3053c05c2049d0d5!2sKarina%20Boff%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1768568437813!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
+    <!-- Botão Fixo do WhatsApp -->
+    <a href="https://api.whatsapp.com/send?phone=5548999899535&text=Ol%C3%A1%2C%20vim%20pelo%20site!" target="_blank" class="btn-whatsapp">
+        <div class="div_whatsapp">
+            <img src="https://img.icons8.com/?size=512&id=16713&format=png" alt="WhatsApp">
+        </div>
+
+        <style>
+            /* ----- BOTÃO WHATSAPP FIXO ----- */
+            .btn-whatsapp {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: #25D366;
+                padding:10px;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                z-index: 99;
+                transition: transform 0.3s;
+            }
+
+            .div_whatsapp{
+                height: 50px;
+                width: 50px;
+            }
+
+            .btn-whatsapp:hover {
+                transform: scale(1.1);
+            }
+
+            .btn-whatsapp img {
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+    </a>
 
     <!-- Footer -->
     <footer class="main-footer" id="contact">
