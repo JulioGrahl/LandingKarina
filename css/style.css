@@ -269,13 +269,15 @@ a {
 }
 
 .primary-cta {
-    background-color: rgb(47, 165, 57);
+    background-color: white;
+    color: var(--accent-blue);
     padding: 1rem 2.5rem;
     font-size: 1.1rem;
 }
 
 .primary-cta:hover {
-    background-color: #4A7ACA;
+    background-color: var(--accent-blue);
+    color: white;
 }
 
 .secondary-link {
@@ -289,7 +291,12 @@ a {
 }
 
 #final-cta-button{
-    background-color: rgb(47, 165, 57);
+    background-color: white;
+    color: var(--accent-blue);
+}
+
+#final-cta-button:hover{
+    background-color: var(--accent-blue);
     color: white;
 }
 
